@@ -44,3 +44,20 @@ fadeEls.forEach(function (fadeEl, idx) {
     opacity: 1
   });
 });
+
+new Swiper(".notice-line .swiper-container", {
+  direction: "vertical",
+  // autoplay: true,
+  loop: true
+});
+
+new Swiper('.promotion .swiper-container', {
+  direction: 'horizontal',
+  slidesPerView: 3,
+  spaceBetween: 10,
+  centeredSlides: true,
+  loop: true,
+  // autoplay: {
+  //   delay: 5000
+  // }
+})
